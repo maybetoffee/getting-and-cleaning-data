@@ -4,7 +4,7 @@ library(plyr)
 
 # Download and unzip the file:
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(fileUrl, "finaldata.zip", method="curl")
+download.file(fileUrl, "finaldata.zip")
 
 if(!file.exists("./UCI HAR Dataset")) {
     unzip("finaldata.zip")
