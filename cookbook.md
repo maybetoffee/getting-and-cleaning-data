@@ -1,8 +1,3 @@
-## Tidy Data
-
- Bruno G. Tavares
-
-
 ## Introduction
 
 Tidy data is a data set that has been merged, cleaned and filtered from a bigger data set that comprises of 3 subsets and 8 files.
